@@ -1,0 +1,16 @@
+[tool.black]
+line-lenght = 89
+include = '\.piy?$'
+exclude = '''
+/(
+    \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | \.direnv
+    | _build
+    | buck-out
+    | build
+)/
+'''
